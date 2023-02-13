@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stiles.css">
+    <title>Contado</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">HOME</a>
+            <a class="cabecalho__menu__link" href="about.html">SOBRE MIM</a>
+            <a class="cabecalho__menu__link" href="contact.html">CONTATO</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="container__conteudo">
+            <h1 class="container__conteudo__titulo">Entre em contata comigo!</h1>
+            <form class="container__conteudo__formulario" action="">
+                <input class="container__conteudo__formulario__input" type="text" name="name"
+                    placeholder="Digite aqui seu nome!">
+                <input class="container__conteudo__formulario__input" type="email" name="email"
+                    placeholder="Digite aqui seu E-mail!">
+                <textarea class="container__conteudo__formulario__input" name="subject" id="subject" cols="30" rows="5"
+                    placeholder="Coloque aqui a previa do seu contato!"></textarea>
+                <input class="container__conteudo__formulario__input" type="submit" name="submit"
+                    onclick="alert('Solicitação enviada com sucesso')">
+            </form>
+        </section>
+        <img class="container__img" src="assets/Imagem.png" alt="Foto da joana programando">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Joana Santos.</p>
+    </footer>
+</body>
+
+</html>
